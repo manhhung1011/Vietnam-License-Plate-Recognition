@@ -73,17 +73,4 @@ CRNN + CTC OCR
 License Plate Result
 ```
 
-## 🧠 Công nghệ sử dụng
-
-- **Python**
-- **YOLOv8** – phát hiện biển số
-- **CRNN + CTC** – nhận dạng ký tự
-- **PyTorch** – huấn luyện và inference
-- **OpenCV** – xử lý ảnh/video
-- **Roboflow** – gán nhãn và quản lý dữ liệu
-
-## 📊 Kết quả
-
-Mô hình OCR đạt khoảng **94.37% Character Accuracy** trong quá trình đánh giá.
-
 Hệ thống hướng tới khả năng nhận dạng biển số xe Việt Nam từ hình ảnh và video thông qua pipeline **Object Detection → Image Processing → OCR**.
